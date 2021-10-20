@@ -223,21 +223,30 @@ h5 {
 .feachers-item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
+  /* display: flex; */
 }
 .feachers-item::before {
   content: '';
   display: block;
   height: 120px;
   background-color: var(--accent-secondary);
+  border-radius: 4px;
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
   margin-bottom: 30px;
 }
 .antenna::before {
   background-image: url(../images/feachers/antenna\ 1.svg);
 }
-
+.clock::before {
+  background-image: url(../images/feachers/clock\ 1.svg);
+}
+.diagram::before {
+  background-image: url(../images/feachers/diagram\ 1.svg);
+}
+.astronaut::before {
+  background-image: url(../images/feachers/astronaut\ 1.svg);
+}
 .feachers-title {
   font-size: 14px;
   line-height: 1.14;
@@ -293,9 +302,9 @@ h5 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-img {
-  /* margin-bottom: 30px; */
-}
+/* .team-img {
+  margin-bottom: 30px;
+} */
 .team-text-container {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -391,9 +400,9 @@ h5 {
 .exemples-item-position:nth-child(3n) {
   margin-right: 0;
 }
-.exemples-img {
-  /* margin-bottom: 20px; */
-}
+/* .exemples-img {
+  margin-bottom: 20px;
+} */
 .exemples-text-container {
   padding: 20px 24px;
   border-bottom: 1px solid var(--exemples-item-border);
