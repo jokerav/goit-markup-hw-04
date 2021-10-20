@@ -224,6 +224,20 @@ h5 {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
+.feachers-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  background-color: var(--accent-secondary);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.antenna::before {
+  background-image: url(../images/feachers/antenna\ 1.svg);
+}
+
 .feachers-title {
   font-size: 14px;
   line-height: 1.14;
