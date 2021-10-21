@@ -236,7 +236,7 @@ h5 {
   margin-left: 30px;
   /* display: flex; */
 }
-.feachers-item::before {
+/* .feachers-item::before {
   content: '';
   display: block;
   height: 120px;
@@ -245,19 +245,8 @@ h5 {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
-}
-.antenna::before {
-  background-image: url(../images/feachers/antenna\ 1.svg);
-}
-.clock::before {
-  background-image: url(../images/feachers/clock\ 1.svg);
-}
-.diagram::before {
-  background-image: url(../images/feachers/diagram\ 1.svg);
-}
-.astronaut::before {
-  background-image: url(../images/feachers/astronaut\ 1.svg);
-}
+} */
+
 .feachers-title {
   font-size: 14px;
   line-height: 1.14;
@@ -330,6 +319,23 @@ h5 {
 .team-position {
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 16px;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+.social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+.social-item:last-child {
+  margin-right: 0;
+}
+
+.social-icon {
+  fill: navy;
 }
 /* .position-text {
   padding-top: 30px;
