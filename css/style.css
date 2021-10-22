@@ -56,6 +56,7 @@ img {
   --hero-btn-hover: #188ce8;
   --header-bottom-border: #ececec;
   --exemples-item-border: #eeeeee;
+  --social-items-our-client: #afb1b8;
 }
 * {
   box-sizing: border-box;
@@ -333,9 +334,25 @@ h5 {
 .social-item:last-child {
   margin-right: 0;
 }
+.social-link {
+  background-color: var(--background-primary);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
 
 .social-icon {
-  fill: navy;
+  fill: #afb1b8;
+}
+.social-link:hover .social-icon {
+  fill: var(--background-primary);
+  background-color: var(--accent);
+}
+.social-link:hover {
+  background-color: var(--accent);
 }
 /* .position-text {
   padding-top: 30px;
