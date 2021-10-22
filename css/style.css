@@ -160,8 +160,19 @@ h5 {
   display: flex;
   margin-left: auto;
 }
+.contacts-item {
+  display: flex;
+  align-items: center;
+}
+.contact-icon {
+  fill: var(--primary-text-color);
+  margin-right: 10px;
+}
+.contacts-item:hover .contact-icon {
+  fill: var(--accent);
+}
 
-.contacts .item:not(:last-child) {
+.contacts-item:not(:last-child) {
   margin-right: 50px;
 }
 .contact-link {
@@ -366,6 +377,12 @@ h5 {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-container {
+  display: flex;
+}
+.footer-logo-adress {
+  margin-right: 70px;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -384,6 +401,15 @@ h5 {
   font-style: normal;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+.join {
+  color: var(--background-primary);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 /* Портфолио */
 
