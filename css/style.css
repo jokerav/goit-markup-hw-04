@@ -447,7 +447,7 @@ footer-social-link:focus {
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px; */
-  padding: 16px 32px;
+
   background-color: var(--background-primary);
   border: 1px solid var(--social-items-our-client);
   border-radius: 4px;
