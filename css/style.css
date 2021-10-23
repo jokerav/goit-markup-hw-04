@@ -430,7 +430,6 @@ h5 {
 .clients-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin-right: -30px;
 }
 .client-item {
