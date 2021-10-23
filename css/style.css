@@ -174,7 +174,6 @@ h5 {
 .contacts-item:focus .contact-icon {
   fill: var(--accent);
 }
-
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -185,7 +184,6 @@ h5 {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
 /* Секция герой */
 .hero {
   background-color: var(--background-hero);
@@ -385,10 +383,15 @@ social-link:focus {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
+
 .footer-logo-adress {
   margin-right: 70px;
 }
+/* .footer-social {
+  width: 206px;
+} */
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -408,6 +411,7 @@ social-link:focus {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .join {
   color: var(--background-primary);
   font-weight: 700;
