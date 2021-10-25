@@ -379,6 +379,7 @@ h5 {
 .social-link:focus {
   background-color: var(--accent);
 }
+/* Класс social item общий в карточках команда и футере */
 
 /* адрес футере */
 .footer {
@@ -426,6 +427,11 @@ h5 {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+.footer-social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
 .footer-social-link {
   background-color: var(--background-light-10);
   width: 100%;
@@ -435,11 +441,11 @@ h5 {
   align-items: center;
   border-radius: 50%;
 }
+
 .footer-social-icon {
   fill: var(--background-primary);
 }
 .footer-social-link:hover,
-footer-social-link:focus {
   background-color: var(--accent);
 }
 /* ---------------Секция клиенты--------------- */
