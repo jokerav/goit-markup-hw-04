@@ -480,7 +480,7 @@ h5 {
 .client-link:focus .client-icon {
   fill: var(--accent);
 }
-.client-link:focus,
+.client-link:hover,
 .client-link:focus {
   border: 1px solid var(--accent);
 }
