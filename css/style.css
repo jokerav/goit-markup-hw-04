@@ -474,14 +474,23 @@ h5 {
 .client-icon {
   fill: var(--social-items-our-client);
 }
-.client-item:focus,
+/* .client-item:focus,
 .client-item:hover {
   border: 1px solid var(--accent);
-}
-.client-item:hover .client-icon,
+} */
+/* .client-item:hover .client-icon,
 .client-item:focus .client-icon {
   fill: var(--accent);
+} */
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+  fill: var(--accent);
 }
+.client-item .client-link:hover,
+.client-item .client-link:focus {
+  border: 1px solid var(--accent);
+}
+
 /* кнопки-фильтры в портфолио */
 .portfolio-btns {
   display: flex;
@@ -532,8 +541,8 @@ h5 {
 .exemples-item-position:nth-child(3n) {
   margin-right: 0;
 }
-.exemples-item:hover,
-.exemples-item:focus {
+.exemples-item .exemple-link:hover,
+.exemples-item .exemple-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
